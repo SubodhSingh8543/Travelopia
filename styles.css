@@ -1,0 +1,370 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color:white;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.destination h1 {
+    margin-bottom: 1rem;
+}
+
+.offers h2 {
+    margin-bottom: 1rem;
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #e9e9e9;
+}
+
+.navbar>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5px; */
+    width: 100%;
+    border-left: 1px solid #e9e9e9;
+    padding: 10px;
+}
+
+.navbar>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.navbar>div>div>p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    color: #5b6a6a;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+
+.right_half_div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+div>button:nth-child(5){
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: #009ea6;
+}
+
+div>button:nth-child(6){
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.btn_humberger{
+    background: rgb(50, 50, 50);
+    display: none;
+}
+
+.logo{
+    display: flex;
+    justify-content:flex-start;
+    width: auto;
+}
+
+.nav_options>a{
+    color: #5b6a6a;
+}
+
+.welcome_view {
+    background-image: url("https://res.cloudinary.com/enchanting/q_80,f_auto,c_lfill,w_800,h_300,g_auto/exodus-web/2022/07/armenia-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.welcome_view>div{
+    background-color: black;
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.welcome_view>div>p{
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+}
+
+.welcome_view>div>h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.form_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+
+#inquiry-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #363e3e;
+    color: white;
+    padding-right: 50px;
+}
+
+#inquiry-form>h1, #inquiry-form>p{
+    text-align: start;
+    width: 100%;
+    margin: 5px;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: start;
+    width: 100%;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+select{ 
+    margin-left: 17px;
+    width: 103.1%;
+}
+
+.submit {
+    width: 105%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.form_main_div{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    /* flex-direction: column; */
+}
+
+.form_main_div>div:nth-child(1){
+    width: 60%;
+    padding-right: 20px;
+    /* border: 1px solid red; */
+}
+.form_main_div>div:nth-child(2){
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.form_main_div>div:nth-child(2)>div:nth-child(1){
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.form_main_div>div:nth-child(1)>p:nth-child(2), .form_main_div>div:nth-child(1)>h1:nth-child(1) {
+ color: #5b6a6a;
+}
+
+.form_main_div>div:nth-child(2)>div:nth-child(1)>h3, .form_main_div>div:nth-child(2)>div:nth-child(1)>p{
+    margin: 0px;
+    color: rgb(106, 106, 106);
+}
+.form_main_div>div:nth-child(2)>div:nth-child(1)>h3{
+    color: #009ea6;
+}
+
+#inquiry-form>div{
+    width: 105%;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#inquiry-form>div>p{
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.show_more_para{
+    display: none;
+    color: #5b6a6a;
+}
+.show_more_p{
+    color:  #009ea6;
+    cursor: pointer;
+}
+.show_less_p{
+    display: none;
+    color:  #009ea6;
+    cursor: pointer;
+}
+
+.nav_options:hover{
+    color:  #009ea6;;
+}
+
+@media screen and (max-width: 1127px), screen and (max-height: 560px) {
+    .btn_humberger{
+        background: rgb(50, 50, 50);
+        display: block;
+    }
+
+    .nav_options{
+        display: none;
+    }
+
+    li{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navbar>div:nth-child(4){
+        display: none;
+    }
+    .welcome_view {
+        height: 50vh;
+    }
+
+    .welcome_view>div>h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .welcome_view>div>p{
+        font-size: 15px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .form_main_div{
+        flex-direction: column;
+    }
+
+    .form_main_div>div:nth-child(1){
+        width: 100%;
+        padding-right: 20px;
+        /* border: 1px solid red; */
+    }
+    .form_main_div>div:nth-child(2){
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+}
+
+
+@media screen and (max-width: 559px), screen and (max-height: 100px) {
+    .phoneno{
+        display: none;
+    }
+    .navbar>div:nth-child(3), .navbar>div:nth-child(2){
+        display: none;
+    }
+    .small_display{
+        display: none;
+    }
+
+    .welcome_view {
+        height: 35vh;
+    }
+
+    .welcome_view>div>h1{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .welcome_view>div>p{
+        font-size: 13px;
+        margin-bottom: 0.5rem;
+    }
+
+    #inquiry-form>div>p{
+        font-size: 10px;
+    }
+}
