@@ -1,6 +1,11 @@
 let ptag = document.querySelector(".show_more_p");
 let ptagless = document.querySelector(".show_less_p");
 
+module.exports = {
+    ptag,
+    ptagless,
+}
+
 // Eventlistner to show all content
 ptag.addEventListener("click", () => {
     let showmoreParagrah = document.querySelector(".show_more_para");
