@@ -25,7 +25,11 @@ Travelopia is designed to be responsive across all devices. Whether you're using
 ## How to Use
 
 1. Clone the repository
-2. Run using the live server 
+2. Run using the live server
+
+## How to run the test cases
+1. First run the command "npm i"
+2. Than run the command "npm test"  to run the test Cases
 
 ## Tech Stack
 
